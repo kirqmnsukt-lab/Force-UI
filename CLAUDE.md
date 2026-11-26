@@ -26,5 +26,5 @@ Mobile: AppBar, NavigationBar, Botão, FAB, Campo, SearchBar, ListTile, Card de 
 ## v0.4
 - Documentos (PDF): IDÊNTICOS ao padrão RSO/AIA — Roboto, #1E1E1E, bordas 2px, faixas #D3D3D3/#EBEBEB, brasão oficial vetorial (copiado do RSO), campo Padrão=RSO (valor negrito) ou Padrão=AIA (rótulo negrito, valor caixa alta). Não "melhorar" esse padrão.
 - Novos: Campo com máscara, Período de datas, Autocomplete, Linha do tempo, DataTable/Seleção, Barra de ações em massa, Card de navegação, Barra de contexto operacional, Indicador de status, Botão de status (atalho), Banner de conexão, Página de erro, Painel de filtros, Painel de notificações; Mobile: Banner/Item de sincronização, Opção, TabBar, Item de ação, Card de contexto do turno.
-- Padrões de tela: Home com cards de navegação, Página de erro; mobile: Home operacional (offline), Login, Pesquisa sem resultado.
+- Padrões de tela: Página de erro; "Home com cards de navegação" e o componente "Card de navegação" são só REFERÊNCIA (estilo RSO/COFIN), não padrão — não usar em projetos novos; mobile: Home operacional (offline), Login, Pesquisa sem resultado.
 - Ao publicar nova versão: registrar na página "Histórico de versões" (mais recente em cima) e atualizar a tag de versão da Capa.
