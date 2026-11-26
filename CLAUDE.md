@@ -34,4 +34,5 @@ Mobile: AppBar, NavigationBar, Botão, FAB, Campo, SearchBar, ListTile, Card de 
 - Fundamentos › Grade e layout: web 1440 (mín. 1366), menu 280 (recolhido 72), topbar 64, contexto 40, conteúdo margem 32 / 12 colunas / espaço 24; mobile 360, margem 16, 4 colunas, toque mín. 48.
 - Documentos: coleção de variáveis "Impressão" (doc/tinta #1E1E1E, doc/faixa #D3D3D3, doc/subfaixa #EBEBEB, doc/papel #FFFFFF) e estilos Documento/* (Roboto). Nada de hex solto nos PDFs.
 - Estilo Código/Atalho (Roboto Mono 13) para teclas de atalho.
+- Guia de uso: Section "Guia rápido (slides)" (90:65) com 14 slides 1280×720 — imagem real dos componentes + título + 1 frase (+ dica). Manter curto; detalhes ficam no frame "Guia completo (consulta)" ao lado.
 - Logo: escudo com "F" montado em blocos (módulos do sistema), bloco do meio em azul; marca "Force UI" + "DESIGN SYSTEM · PMESP". SVGs em logo/ exportados do componente "Logo Force UI" (Capa).
