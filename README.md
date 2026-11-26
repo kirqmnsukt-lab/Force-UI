@@ -19,7 +19,7 @@ Design System da Polícia Militar — web (Angular Material) e mobile (Flutter).
 - **Ícones:** Material Symbols Outlined. Web: `<mat-icon fontSet="material-symbols-outlined">search</mat-icon>`. Flutter: pacote `material_symbols_icons` → `Icon(Symbols.search)`.
 
 ## Componentes
-Web (36) e mobile (11) — lista completa no CLAUDE.md e no Figma (Guia de uso → "Quando usar cada componente").
+Web (54) e mobile (17) — lista completa no CLAUDE.md e no Figma (Guia de uso → "Quando usar cada componente").
 
 ## Status
 Os temas ainda não foram compilados em projeto real: validar com Angular 22 e com a versão de Flutter do projeto antes de adotar.
