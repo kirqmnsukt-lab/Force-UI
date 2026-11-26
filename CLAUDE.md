@@ -9,7 +9,7 @@ Arquivo: https://www.figma.com/design/hBuvSBIAFvcgBiq0aA0jfu/Reposit%C3%B3rio ·
 - Ícones: Material Symbols Outlined (248 componentes "Ícone/nome" na página Ícones). Cor de ícone: gravar a cor resolvida junto com a variável (senão aparece preto).
 - Cores: só 14 visíveis (paleta essencial) — bg/canvas, bg/surface, bg/subtle, bg/primary, text/primary, text/secondary, text/muted, text/link, border/default, icon/default, text/success, text/danger, text/warning, text/info. As outras ficam em "interno/..." (scopes vazios, só para componentes). Não criar cor nova sem necessidade; em scripts, buscar variáveis internas pelo nome "interno/...".
 - Variables: Primitivos (ocultos), Cores (Claro/Escuro), Espaçamento (spacing/, radius/). Estilos de texto e Sombra/*, Foco/anel.
-- Páginas: Capa, Guia de uso, Histórico de versões, Fundamentos, Ícones | WEB: Button, Formulários, Feedback, Overlay, Dados, Navegação, Documentos | MOBILE: Mobile (Flutter) | TELAS: Padrões de tela. "Alertas" é do usuário: não mexer.
+- Páginas (grupos separados por páginas "----------------------", que viram divisor no Figma): Capa, Guia de uso, Histórico de versões, Fundamentos, Ícones | WEB: Button, Formulários, Feedback, Overlay, Dados, Navegação, Documentos | MOBILE: Mobile (Flutter) | TELAS: Padrões de tela. "Alertas" é do usuário: não mexer.
 - Estrutura de cada página de componentes: 3 Sections do Figma lado a lado — "1. Como usar" (quando usar / boas práticas / evite), "2. Componentes" (um cartão por componente, solto na Section, com etiquetas Angular e Flutter), "3. Exemplo de aplicação". Componente novo entra como cartão na Section 2 da página certa. Padrões de tela: uma Section por padrão.
 - Padrões web: Home (padrão, 82:1478 claro / 82:2000 escuro), Pesquisa com filtros + resultados (21:694), Cadastro em etapas (26:886), Login (49:1275). Mobile: Lista com pesquisa (43:106), Formulário (43:294).
 
@@ -34,3 +34,4 @@ Mobile: AppBar, NavigationBar, Botão, FAB, Campo, SearchBar, ListTile, Card de 
 - Fundamentos › Grade e layout: web 1440 (mín. 1366), menu 280 (recolhido 72), topbar 64, contexto 40, conteúdo margem 32 / 12 colunas / espaço 24; mobile 360, margem 16, 4 colunas, toque mín. 48.
 - Documentos: coleção de variáveis "Impressão" (doc/tinta #1E1E1E, doc/faixa #D3D3D3, doc/subfaixa #EBEBEB, doc/papel #FFFFFF) e estilos Documento/* (Roboto). Nada de hex solto nos PDFs.
 - Estilo Código/Atalho (Roboto Mono 13) para teclas de atalho.
+- Logo: escudo com "F" montado em blocos (módulos do sistema), bloco do meio em azul; marca "Force UI" + "DESIGN SYSTEM · PMESP". SVGs em logo/ exportados do componente "Logo Force UI" (Capa).
