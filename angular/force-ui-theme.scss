@@ -1,0 +1,68 @@
+// Force UI — tema para Angular Material 19+ (M3)
+// Uso: importar no styles.scss. Validar nomes dos mixins com a versão do projeto (Angular 22).
+@use '@angular/material' as mat;
+
+html {
+  color-scheme: light;
+  @include mat.theme((
+    color: mat.$azure-palette,
+    typography: Inter,
+    density: 0,
+  ));
+  @include mat.theme-overrides((
+    primary: #1D2833,               // bg/primary
+    on-primary: #FFFFFF,            // text/on-primary
+    primary-container: #F0F3F6,     // bg/primary-subtle
+    secondary-container: #F1F5F9,   // bg/subtle (toggle, tonal)
+    surface: #FFFFFF,               // bg/surface
+    surface-container-low: #F8FAFC, // bg/canvas
+    surface-container: #F1F5F9,     // bg/subtle
+    on-surface: #0F172A,            // text/primary
+    on-surface-variant: #475569,    // text/secondary
+    outline: #CBD5E1,               // border/input
+    outline-variant: #E2E8F0,       // border/default
+    error: #B42519,                 // bg/danger-strong
+    corner-extra-small: 4px,
+    corner-small: 6px,              // radius/md
+    corner-medium: 8px,             // radius/lg
+  ));
+  @include mat.button-overrides((
+    filled-container-shape: 6px,
+    outlined-container-shape: 6px,
+    text-container-shape: 6px,
+  ));
+  @include mat.form-field-overrides((
+    outlined-container-shape: 6px,
+  ));
+}
+
+// Modo Escuro: <body class="dark-theme"> (tons grafite, base #282D31)
+.dark-theme {
+  color-scheme: dark;
+  @include mat.theme-overrides((
+    primary: #417AC1, on-primary: #1F2326,
+    surface: #33393E, surface-container-low: #282D31,
+    surface-container: #3D444A,
+    on-surface: #F4F5F6, on-surface-variant: #CDD1D5,
+    outline: #4B535A, outline-variant: #3D444A,
+    error: #E39A94,
+  ));
+}
+
+// Cores extras (sem equivalente no Material)
+:root {
+  --pm-bg-success: #F2F8EB; --pm-text-success: #4A7020;
+  --pm-bg-warning: #FDF2EA; --pm-text-warning: #A5511D;
+  --pm-bg-info: #EAF0F8;    --pm-text-info: #204A82;
+  --pm-bg-danger: #FBEDEC;  --pm-text-danger: #B42519;
+}
+.dark-theme {
+  --pm-bg-success: #24380F; --pm-text-success: #A1CD60;
+  --pm-bg-warning: #4D260D; --pm-text-warning: #F19D5C;
+  --pm-bg-info: #142B4B;    --pm-text-info: #6797CE;
+  --pm-bg-danger: #4F0E09;  --pm-text-danger: #E39A94;
+}
+
+// Ícones: Material Symbols Outlined
+// <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+// <mat-icon fontSet="material-symbols-outlined">search</mat-icon>

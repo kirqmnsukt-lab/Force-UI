@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Force UI — símbolo negativo</title>
+  <path d="M32 3.5 55 11.6v18.9c0 14.4-9.4 25.4-23 30-13.6-4.6-23-15.6-23-30V11.6L32 3.5Z" fill="#FFFFFF"/>
+  <path d="M32 3.5 55 11.6v18.9c0 14.4-9.4 25.4-23 30V3.5Z" fill="#CDD1D5" fill-opacity=".35"/>
+  <rect x="21" y="17" width="8" height="29" rx="2" fill="#1D2833"/>
+  <rect x="21" y="17" width="23" height="8" rx="2" fill="#1D2833"/>
+  <rect x="31" y="30" width="13" height="7" rx="2" fill="#316BBB"/>
+</svg>
