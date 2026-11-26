@@ -13,6 +13,7 @@ Design System da Polícia Militar — web (Angular Material) e mobile (Flutter).
 | `flutter/force_ui_theme.dart` | Tema Flutter (Material 3): `MaterialApp(theme: ForceUI.light, darkTheme: ForceUI.dark)` |
 
 ## Fundamentos
+- **Paleta essencial:** 14 cores para as telas (3 fundos, marca, 4 textos, borda, ícone e 4 estados). Hover, desabilitado e foco ficam dentro dos componentes.
 - **Cores:** modo Claro em Slate + Marinho (primária `#1D2833`, interação `#316BBB`); modo Escuro em Grafite (fundo `#282D31`, superfície `#33393E`).
 - **Fonte:** Inter. **Raio:** 6px (campos e botões), 8px (cards e modais).
 - **Ícones:** Material Symbols Outlined. Web: `<mat-icon fontSet="material-symbols-outlined">search</mat-icon>`. Flutter: pacote `material_symbols_icons` → `Icon(Symbols.search)`.
