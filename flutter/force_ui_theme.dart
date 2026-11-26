@@ -21,23 +21,25 @@ class ForceUI {
     surfaceContainerLow: Color(0xFFF8FAFC),
     surfaceContainer: Color(0xFFF1F5F9),
     surfaceContainerHigh: Color(0xFFE2E8F0),
-    outline: Color(0xFFCBD5E1), outlineVariant: Color(0xFFE2E8F0),
+    outline: Color(0xFF8494A8), outlineVariant: Color(0xFFE2E8F0),
+    inverseSurface: Color(0xFF1E293B), onInverseSurface: Color(0xFFF8FAFC),
   );
 
   static const _dark = ColorScheme(
     brightness: Brightness.dark,
-    primary: Color(0xFF417AC1), onPrimary: Color(0xFF1F2326),
+    primary: Color(0xFF316BBB), onPrimary: Color(0xFFFFFFFF),
     primaryContainer: Color(0xFF3D444A), onPrimaryContainer: Color(0xFFF4F5F6),
-    secondary: Color(0xFF6797CE), onSecondary: Color(0xFF1F2326),
-    secondaryContainer: Color(0xFF142B4B), onSecondaryContainer: Color(0xFF6797CE),
-    error: Color(0xFFE39A94), onError: Color(0xFF4F0E09),
+    secondary: Color(0xFF86AAD8), onSecondary: Color(0xFF1F2326),
+    secondaryContainer: Color(0xFF142B4B), onSecondaryContainer: Color(0xFF86AAD8),
+    error: Color(0xFFB42519), onError: Color(0xFFFFFFFF),
     surface: Color(0xFF33393E), onSurface: Color(0xFFF4F5F6),
     onSurfaceVariant: Color(0xFFCDD1D5),
     surfaceContainerLowest: Color(0xFF1F2326),
     surfaceContainerLow: Color(0xFF282D31),
     surfaceContainer: Color(0xFF3D444A),
     surfaceContainerHigh: Color(0xFF4B535A),
-    outline: Color(0xFF4B535A), outlineVariant: Color(0xFF3D444A),
+    outline: Color(0xFF858D94), outlineVariant: Color(0xFF3D444A),
+    inverseSurface: Color(0xFFE6E8EA), onInverseSurface: Color(0xFF282D31),
   );
 
   static ThemeData _build(ColorScheme c) => ThemeData(

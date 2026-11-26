@@ -19,7 +19,8 @@ html {
     surface-container: #F1F5F9,     // bg/subtle
     on-surface: #0F172A,            // text/primary
     on-surface-variant: #475569,    // text/secondary
-    outline: #CBD5E1,               // border/input
+    // text/muted = #5B6B7F
+    outline: #8494A8,               // border/input (contraste 3:1)
     outline-variant: #E2E8F0,       // border/default
     error: #B42519,                 // bg/danger-strong
     corner-extra-small: 4px,
@@ -40,26 +41,30 @@ html {
 .dark-theme {
   color-scheme: dark;
   @include mat.theme-overrides((
-    primary: #417AC1, on-primary: #1F2326,
+    primary: #316BBB, on-primary: #FFFFFF,
     surface: #33393E, surface-container-low: #282D31,
     surface-container: #3D444A,
     on-surface: #F4F5F6, on-surface-variant: #CDD1D5,
-    outline: #4B535A, outline-variant: #3D444A,
-    error: #E39A94,
+    outline: #858D94, outline-variant: #3D444A,
+    error: #B42519, on-error: #FFFFFF,
   ));
 }
 
 // Cores extras (sem equivalente no Material)
 :root {
+  --pm-text-muted: #5B6B7F; --pm-text-link: #2B5FA7;
+  --pm-bg-success-strong: #4A7020; --pm-bg-inverse: #1E293B; --pm-text-inverse: #F8FAFC;
   --pm-bg-success: #F2F8EB; --pm-text-success: #4A7020;
   --pm-bg-warning: #FDF2EA; --pm-text-warning: #A5511D;
   --pm-bg-info: #EAF0F8;    --pm-text-info: #204A82;
   --pm-bg-danger: #FBEDEC;  --pm-text-danger: #B42519;
 }
 .dark-theme {
+  --pm-text-muted: #A9B0B6; --pm-text-link: #86AAD8;
+  --pm-bg-success-strong: #4A7020; --pm-bg-inverse: #E6E8EA; --pm-text-inverse: #282D31;
   --pm-bg-success: #24380F; --pm-text-success: #A1CD60;
   --pm-bg-warning: #4D260D; --pm-text-warning: #F19D5C;
-  --pm-bg-info: #142B4B;    --pm-text-info: #6797CE;
+  --pm-bg-info: #142B4B;    --pm-text-info: #86AAD8;
   --pm-bg-danger: #4F0E09;  --pm-text-danger: #E39A94;
 }
 
